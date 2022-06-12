@@ -251,6 +251,10 @@
     $$\theta^{\prime}=180-2 \times \theta \tag{4}$$ 
     
     * 通過*Math.atan( tan ø )*求入射角 ø 的**弧度**
+    * $$
+    * \begin{equation}
+\theta^{\prime}=180-2 \times \theta
+\end{equation}$$
     
 
 ```javascript
