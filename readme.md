@@ -1,16 +1,4 @@
-\begin{equation}
-\begin{array}{l}
-\left[\begin{array}{ll}
-x^{\prime} & y^{\prime}
-\end{array}\right]=\left[\begin{array}{cc}
-\cos \theta & -\sin \theta \\
-\sin \theta & \cos \theta
-\end{array}\right]\left[\begin{array}{ll}
-x y
-\end{array}\right]\\
-\text { degreens }=\operatorname{radiah} \times \frac{180}{\pi}
-\end{array}
-\end{equation}
+\begin{equation}\begin{array}{l}\left[\begin{array}{ll}x^{\prime} & y^{\prime}\end{array}\right]=\left[\begin{array}{cc}\cos \theta & -\sin\theta \\\sin \theta & \cos \theta\end{array}\right]\left[\begin{array}{ll}x y\end{array}\right]\\\text { degreens }=\operatorname{radiah} \times \frac{180}{\pi}\end{array}\end{equation}
 
 
 
