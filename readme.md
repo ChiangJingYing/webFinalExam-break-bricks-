@@ -242,7 +242,7 @@
 2.  計算反彈方向( *CountVector* )
 
     -   旋轉矩陣          (1)
-    -   Degrees -> Radian(2) $\end{array}\right]\tag{1}$
+    -   Degrees -> Radian(2)$\text { radian }=\operatorname{deg} \times \frac{\pi}{180}\tag{2}$
     -   Radian -> Degrees(3)
     -   旋轉角ø'          (4)
     $$
