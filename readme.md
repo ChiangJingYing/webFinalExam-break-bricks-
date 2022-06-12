@@ -245,7 +245,8 @@
     -   Degrees -> Radian(2)
     -   Radian -> Degrees(3)
     -   旋轉角ø'          (4)
-    $$\begin{align}{2}\left[x^{\prime} y^{\prime}\right]=\left[\begin{array}{cc}\cos \theta & -\sin \theta \\\sin \theta & \cos \theta\end{array}\right]\left[\begin{array}{ll}x y\end{array}\right]\\ \text{ radian }=\operatorname{deg} \times \frac{\pi}{180} \end{align}$$
+    $$\begin{align}{2}\left[x^{\prime} y^{\prime}\right]=\left[\begin{array}{cc}\cos \theta & -\sin \theta \\\sin \theta & \cos \theta\end{array}\right]\left[\begin{array}{ll}x y\end{array}\right] \\
+\text{ radian }=\operatorname{deg} \times \frac{\pi}{180} \end{align}$$
     $$\text { radian }=\operatorname{deg} \times \frac{\pi}{180}$$
     $$\text { degrees }=\operatorname{radian} \times \frac{180}{\pi}$$
     $$\theta^{\prime}=180-2 \times \theta$$ 
