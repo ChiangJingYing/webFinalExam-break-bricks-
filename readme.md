@@ -246,7 +246,7 @@
     -   Radian -> Degrees(3)
     -   旋轉角ø'          (4)
     $$\begin{equation}\left[x^{\prime} y^{\prime}\right]=\left[\begin{array}{cc}\cos \theta & -\sin \theta \\\sin \theta & \cos \theta\end{array}\right]\left[\begin{array}{ll}x y\end{array}\right]\end{equation}\tag{1}$$
-    $$\text { radian }=\operatorname{deg} \times \frac{\pi}{180}\tag{2}$$
+    $$\text { radian }=\operatorname{deg} \times \frac{\pi}{180}\tag{2} | \text { degrees }=\operatorname{radian} \times \frac{180}{\pi}\tag{3}$$
     $$\text { degrees }=\operatorname{radian} \times \frac{180}{\pi}\tag{3}$$
     $$\theta^{\prime}=180-2 \times \theta \tag{4}$$ 
     
