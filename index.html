@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>final exam game</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <style>
+        .swal-button{
+            background-color: #0085d4;
+        }
+        .title{
+            width: 640px;
+            background-color: lightskyblue;
+            text-align: center;
+            font-size: 30px;
+            color: yellow;
+        }
+        .board{
+            font-size: 18px;
+            display: flex;
+            width: 640px;
+            justify-content: space-between;
+            background-color: #f1cabd;
+        }
+        .board span:nth-child(1){
+            position: relative;
+            left: 25px;
+        }
+        .board span:nth-child(2){
+            display: none;
+        }
+        .board span:nth-child(3){
+            margin-right: 1em;
+        }
+        img{
+            position: absolute;
+            zoom: 15%;
+        }
+        canvas{
+            background-color: #bcbcbc;
+            border: 1px black solid;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body onload="start()">
+<div class="title">
+    打磚塊
+    <button disabled style="display: block;"  id = "reset">reset</button>
+</div>
+<img src="intro.svg" alt="" id="intro">
+<div class="board">
+    <span id="score">score:0</span>
+    <span id="extra">extra</span>
+    <span id="level">level:1</span>
+</div>
+<canvas id="myCanvas" width="640" height="480"></canvas>
+<script src="Ball.js"></script>
+<script src="Bricks.js"></script>
+<script src="WindowSetting.js"></script>
+<script src="game.js"></script>
+</body>
+</html>
