@@ -242,7 +242,7 @@
 2.  計算反彈方向( *CountVector* )
 
     -   旋轉矩陣          (1)
-    -   Degrees -> Radian(2)
+    -   Degrees -> Radian(2) 
     -   Radian -> Degrees(3)
     -   旋轉角ø'          (4)
     $$
@@ -266,9 +266,10 @@
     $$
     \theta^{\prime}=180-2 \times \theta \tag{4}
     $$
-   
-
-* 通過*Math.atan( tan ø )*求入射角 ø 的**弧度**
+    
+    
+    * 通過*Math.atan( tan ø )*求入射角 ø 的**弧度**
+    
 
 ```javascript
         CountVector() {
@@ -279,9 +280,9 @@
             this.diry = (Math.sin(radian) * this.dirx + Math.cos(radian) * this.diry);
         }
 ```
-    
 
-    
+
+​    
 
 3.  檢查畫面大小(  *windowSetting*  )
 
