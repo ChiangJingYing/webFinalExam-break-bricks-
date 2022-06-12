@@ -1,8 +1,3 @@
-$\left[\begin{array}{ll}x^{\prime} & y^{\prime}\end{array}\right]=\left[\begin{array}{cc}\cos \theta & -\sin \theta \\ \sin \theta & \cos \theta\end{array}\right]\left[\begin{array}{ll}x y\end{array}\right]$
-degreens $=\operatorname{radiah} \times \frac{180}{\pi}$
-
-
-
 # 網頁期末project
 ### 物件
 
